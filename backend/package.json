@@ -1,0 +1,23 @@
+{
+  "name": "multi-tenant-analytics-backend",
+  "version": "1.0.0",
+  "description": "Backend for multi-tenant analytics dashboard",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "date-fns": "^3.0.6"
+  }
+}
